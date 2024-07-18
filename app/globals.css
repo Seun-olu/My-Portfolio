@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+.clamp-font-size {
+    font-size: clamp(35px, 6vw, 70px);
+  }
+  
+
+  
+  ::-webkit-scrollbar {
+    width: 7px; /* Adjust the width of the scrollbar */
+    height: 7px; /* Adjust the height of the scrollbar for horizontal scrolling */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8992b1; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Add rounded corners to the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0a1930; /* Set the background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b7c2e1; /* Change the color of the scrollbar thumb on hover */
+  }
+
+
