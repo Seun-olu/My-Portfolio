@@ -63,21 +63,18 @@ const experiences = [
   },
 ];
 
-export default function Experience({ id }) {
+export default function Experience({id}) {
   const [selectedExperience, setSelectedExperience] = useState(experiences[0]);
 
   return (
-    <section
-      id={id}
-      className="flex flex-col w-full px-6 sm:px-12 lg:px-[250px] pt-10 lg:pt-[200px] items-start"
-    >
+    <section id={id} className="flex flex-col w-full px-6 sm:px-12 lg:px-[250px] pt-10 lg:pt-[200px] items-start">
       {/* Heading */}
-      <div className="flex flex-col sm:flex-row gap-4 items-center sm:justify-start pb-6 md:pb-10 text-center sm:text-left">
-        <h2 className="cursor-pointer font-sanss font-semibold text-base sm:text-xl text-[#b7c2e1]">
+      <div className="flex gap-4 items-center justify-start pb-6 lg:pb-10 text-[#b7c2e1]">
+        <h2 className="cursor-pointer font-sanss font-semibold text-base sm:text-xl ">
           <span className="text-[#64feda] font-Mono text-sm sm:text-base">
             02.
           </span>{" "}
-          Where I&#39;ve Worked
+          My Experience
         </h2>
         <div className="w-20 sm:w-40 lg:w-60 h-[1.5px] bg-[#243550]"></div>
       </div>
