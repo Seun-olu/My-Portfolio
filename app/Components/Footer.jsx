@@ -1,7 +1,7 @@
-import Github from "./Icon components/Github";
-import Gram from "./Icon components/Gram";
-import Linkedin from "./Icon components/Linkedin";
-import X from "./Icon components/X";
+import Github from "../Assets/Icon components/Github";
+import Gram from "../Assets/Icon components/Gram";
+import Linkedin from "../Assets/Icon components/Linkedin";
+import X from "../Assets/Icon components/X";
 
 const Footer = () => {
   return (

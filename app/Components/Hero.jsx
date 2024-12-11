@@ -1,6 +1,6 @@
-const Hero = () => {
+const Hero = ({id}) => {
   return (
-    <div className="flex flex-col px-6 mt-20 sm:px-12 lg:px-[140px] items-start gap-4 pt-8 sm:pt-12 lg:pt-[30px]">
+    <section id={id} className="flex flex-col px-6 mt-20 sm:px-12 lg:px-[140px] items-start gap-4 pt-8 sm:pt-12 lg:pt-[30px]">
       {/* Greeting */}
       <p className="text-[#64feda] font-Kode text-base sm:text-lg">
         Hi, my name is
@@ -31,7 +31,7 @@ const Hero = () => {
           </a>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

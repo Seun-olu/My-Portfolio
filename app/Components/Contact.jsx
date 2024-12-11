@@ -1,6 +1,6 @@
-const Contact = () => {
+const Contact = ({id}) => {
   return (
-    <div className="flex flex-col items-center text-md px-6 sm:px-12 lg:px-[250px] pt-20 lg:pt-[200px] gap-6 text-[#7f89a7] w-full">
+    <section id={id} className="flex flex-col items-center text-md px-6 sm:px-12 lg:px-[250px] pt-20 lg:pt-[200px] gap-6 text-[#7f89a7] w-full">
       {/* Section Header */}
       <p className="font-Mono text-[#64feda] text-sm sm:text-base">04. Contact</p>
 
@@ -23,7 +23,7 @@ const Contact = () => {
       >
         Say Hello
       </a>
-    </div>
+    </section>
   );
 };
 

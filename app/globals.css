@@ -28,4 +28,8 @@
     background: #b7c2e1; /* Change the color of the scrollbar thumb on hover */
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
 

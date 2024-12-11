@@ -1,26 +1,29 @@
-import Image from "next/image";
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Socials from "./Components/Socials";
-import Email from "./Components/Email";
-import About from "./Components/About";
-import Experience from "./Components/Experiences";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+"use client";
+import dynamic from "next/dynamic";
 
+// Lazy-loaded components
+const Navbar = dynamic(() => import("./Components/Navbar"));
+const Hero = dynamic(() => import("./Components/Hero"));
+const Socials = dynamic(() => import("./Components/Socials"));
+const Email = dynamic(() => import("./Components/Email"));
+const About = dynamic(() => import("./Components/About"));
+const Experience = dynamic(() => import("./Components/Experiences"));
+const Projects = dynamic(() => import("./Components/Projects"));
+const Contact = dynamic(() => import("./Components/Contact"));
+const Footer = dynamic(() => import("./Components/Footer"));
 
 export default function Home() {
   return (
     <main className="flex flex-col bg-[#0a1930] p-2 text-white">
-      <Navbar/>
-      <Socials/>
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
-      <Email/>
-      
+      <Navbar />
+      <Socials />
+      <Hero id="hero" />
+      <About id="about" />
+      <Experience id="experience" />
+      <Projects id="projects"/>
+      <Contact id="contact" />
+      <Footer />
+      <Email />
     </main>
   );
 }

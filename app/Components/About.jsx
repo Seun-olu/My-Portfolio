@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Pro from "../../public/Pro.png";
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 px-6 sm:px-12 lg:px-[180px] justify-center items-center gap-10 lg:gap-[250px]">
+    <section id={id} className="grid grid-cols-1 lg:grid-cols-2 px-6 sm:px-12 lg:px-[180px] justify-center items-center gap-10 lg:gap-[250px]">
       {/* Text Section */}
       <div className="flex flex-col items-start gap-4 pt-12 lg:pt-[150px] text-[#b7c2e1] w-full lg:w-[500px]">
         {/* Heading */}
@@ -74,7 +74,7 @@ const About = () => {
           alt="Profile Picture"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
