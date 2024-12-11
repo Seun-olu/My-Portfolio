@@ -8,8 +8,8 @@ const About = ({id}) => {
       <div className="flex flex-col items-start gap-4 pt-12 lg:pt-[150px] text-[#b7c2e1] w-full lg:w-[500px]">
         {/* Heading */}
         <div className="flex flex-row gap-4 items-center justify-start pb-6 lg:pb-10">
-          <h2 className="cursor-pointer font-sanss font-semibold text-lg sm:text-xl lg:text-[25px]">
-            <span className="text-[#64feda] font-Mono text-base sm:text-lg lg:text-[20px]">
+          <h2 className="cursor-pointer font-sanss font-semibold text-base sm:text-xl ">
+            <span className="text-[#64feda] font-Mono text-sm sm:text-base">
               01.
             </span>{" "}
             About Me

@@ -10,8 +10,8 @@ const Projects = ({ id }) => {
     >
       {/* Section Title */}
       <div className="flex flex-col sm:flex-row gap-4 items-center sm:justify-start pb-6 md:pb-10 text-center sm:text-left">
-        <h2 className="cursor-pointer font-sanss font-semibold text-lg sm:text-xl lg:text-[25px]">
-          <span className="text-[#64feda] font-Mono text-base sm:text-lg lg:text-[20px]">
+        <h2 className="cursor-pointer font-sanss font-semibold text-base sm:text-xl">
+          <span className="text-[#64feda] font-Mono text-sm sm:text-base">
             03.
           </span>{" "}
           Some personal projects

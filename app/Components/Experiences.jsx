@@ -70,8 +70,8 @@ export default function Experience({id}) {
     <section id={id} className="flex flex-col w-full px-6 sm:px-12 lg:px-[250px] pt-10 lg:pt-[200px] items-start">
       {/* Heading */}
       <div className="flex gap-4 items-center justify-start pb-6 lg:pb-10 text-[#b7c2e1]">
-        <h2 className="cursor-pointer font-sanss font-semibold text-lg sm:text-xl lg:text-[25px]">
-          <span className="text-[#64feda] font-Mono text-base sm:text-lg lg:text-[20px]">
+        <h2 className="cursor-pointer font-sanss font-semibold text-base sm:text-xl ">
+          <span className="text-[#64feda] font-Mono text-sm sm:text-base">
             02.
           </span>{" "}
           Where I&#39;ve Worked
