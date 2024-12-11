@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="md:text-base text-xs">
-        Designed & Built by Oluwaseun Olugbewesa
+        Designed & Built by Me
       </p>
     </footer>
   );
