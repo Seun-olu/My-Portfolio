@@ -6,7 +6,7 @@ const Projects = ({ id }) => {
   return (
     <section
       id={id}
-      className="lg:px-44 px-10 mt-20 bg-[#0a192f] text-[#b7c2e1] flex flex-col w-full "
+      className="lg:px-44 px-10 mt-40 scroll-mt-24 bg-[#0a192f] text-[#b7c2e1] flex flex-col w-full "
     >
       <div className="flex gap-4 items-center justify-start pb-6 lg:pb-10 text-[#b7c2e1]">
         <h2 className="cursor-pointer font-sanss font-semibold text-lg sm:text-xl lg:text-[25px]">

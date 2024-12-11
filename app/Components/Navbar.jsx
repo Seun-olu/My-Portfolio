@@ -50,7 +50,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="py-2 md:py-0 font-Mono text-sm hover:text-[#64feda] transition-all duration-200 ease-in-out">
-            <Link href="#project" onClick={() => setMenuOpen(false)}>
+            <Link href="#projects" onClick={() => setMenuOpen(false)}>
               <span className="text-[#64feda] font-Mono">03.</span> Projects
             </Link>
           </li>
